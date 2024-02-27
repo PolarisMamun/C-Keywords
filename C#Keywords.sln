@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "Abstract\Abstract.csproj", "{FAB41A66-B04F-43F3-953C-AE7E21727D17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract", "Abstract\Abstract.csproj", "{FAB41A66-B04F-43F3-953C-AE7E21727D17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifier", "AccessModifier\AccessModifier.csproj", "{FC81C70A-E2AA-4AC5-A0C2-F777363B08B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifier", "AccessModifier\AccessModifier.csproj", "{FC81C70A-E2AA-4AC5-A0C2-F777363B08B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Const", "Const\Const.csproj", "{CCABAF93-E357-4A5B-A9DC-7F032DB650E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Const", "Const\Const.csproj", "{CCABAF93-E357-4A5B-A9DC-7F032DB650E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event", "Event\Event.csproj", "{B0000E28-4BE3-4529-9CD7-CF9A92F27BA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event", "Event\Event.csproj", "{B0000E28-4BE3-4529-9CD7-CF9A92F27BA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extern", "Extern\Extern.csproj", "{5406E7F3-909E-4719-A23C-A170FABC1289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New", "New\New.csproj", "{F28FB857-688A-4C28-854C-40F2EAC5A13D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{B0000E28-4BE3-4529-9CD7-CF9A92F27BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0000E28-4BE3-4529-9CD7-CF9A92F27BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0000E28-4BE3-4529-9CD7-CF9A92F27BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5406E7F3-909E-4719-A23C-A170FABC1289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5406E7F3-909E-4719-A23C-A170FABC1289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5406E7F3-909E-4719-A23C-A170FABC1289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5406E7F3-909E-4719-A23C-A170FABC1289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F28FB857-688A-4C28-854C-40F2EAC5A13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28FB857-688A-4C28-854C-40F2EAC5A13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28FB857-688A-4C28-854C-40F2EAC5A13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28FB857-688A-4C28-854C-40F2EAC5A13D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
